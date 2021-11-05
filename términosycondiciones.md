@@ -1,0 +1,28 @@
+Términos y condiciones
+Al descargar o utilizar la aplicación, estos términos se aplicarán automáticamente a usted - por lo tanto, debe asegurarse de leerlos cuidadosamente antes de usar la aplicación. No está permitido copiar o modificar la aplicación, ninguna parte de la misma o nuestras marcas comerciales de ninguna manera. No está permitido intentar extraer el código fuente de la aplicación, y tampoco debe intentar traducir la aplicación a otros idiomas, o hacer versiones derivadas. La aplicación en sí, y todas las marcas comerciales, derechos de autor, derechos de bases de datos y otros derechos de propiedad intelectual relacionados con ella, siguen perteneciendo a MECUBA.
+
+MECUBA se compromete a garantizar que la aplicación sea lo más útil y eficiente posible. Por ello, nos reservamos el derecho a realizar cambios en la aplicación o a cobrar por sus servicios, en cualquier momento y por cualquier motivo. Nunca te cobraremos por la aplicación o por sus servicios sin dejarte muy claro por qué estás pagando.
+
+La aplicación Brazo Escritor Skill almacena y procesa los datos personales que usted nos ha proporcionado, con el fin de proporcionar nuestro Servicio. Es tu responsabilidad mantener tu teléfono y el acceso a la aplicación seguros. Por ello, te recomendamos que no hagas jailbreak o root a tu teléfono, que es el proceso de eliminar las restricciones y limitaciones de software impuestas por el sistema operativo oficial de tu dispositivo. Podría hacer que tu teléfono sea vulnerable a malware/virus/programas maliciosos, comprometer las características de seguridad de tu teléfono y podría significar que la aplicación Brazo Escritor Skill no funcione correctamente o en absoluto.
+
+Debes tener en cuenta que hay ciertas cosas de las que MECUBA no se hace responsable. Algunas funciones de la aplicación requieren que la aplicación tenga una conexión a Internet activa. La conexión puede ser Wi-Fi o proporcionada por tu proveedor de red móvil, pero MECUBA no puede responsabilizarse de que la aplicación no funcione a pleno rendimiento si no tienes acceso a Wi-Fi y no te queda nada de tu asignación de datos.
+
+Si utilizas la aplicación fuera de una zona con Wi-Fi, debes recordar que se seguirán aplicando los términos del acuerdo con tu proveedor de red móvil. En consecuencia, es posible que tu proveedor de telefonía móvil te cobre el coste de los datos durante la conexión mientras accedes a la aplicación, o bien otros cargos de terceros. Al utilizar la aplicación, usted acepta la responsabilidad de dichos cargos, incluidos los cargos por datos en itinerancia si utiliza la aplicación fuera de su territorio (es decir, región o país) sin desactivar la itinerancia de datos. Si usted no es el pagador de la factura del dispositivo en el que está utilizando la aplicación, tenga en cuenta que asumimos que ha recibido el permiso del pagador de la factura para utilizar la aplicación.
+
+En la misma línea, MECUBA no siempre puede responsabilizarse de la forma en que utilices la aplicación, es decir, tienes que asegurarte de que tu dispositivo esté cargado; si se queda sin batería y no puedes encenderlo para utilizar el Servicio, MECUBA no puede aceptar la responsabilidad.
+
+Con respecto a la responsabilidad de MECUBA por el uso que hagas de la aplicación, cuando utilices la aplicación, es importante que tengas en cuenta que, aunque nos esforzamos por asegurarnos de que esté actualizada y sea correcta en todo momento, dependemos de terceros que nos proporcionan información para poder ponerla a tu disposición. MECUBA no acepta ninguna responsabilidad por cualquier pérdida, directa o indirecta, que experimente como resultado de confiar totalmente en esta funcionalidad de la aplicación.
+
+Es posible que en algún momento queramos actualizar la aplicación. La aplicación está actualmente disponible en Android e iOS - los requisitos para ambos sistemas (y para cualquier sistema adicional al que decidamos ampliar la disponibilidad de la aplicación) pueden cambiar, y tendrás que descargar las actualizaciones si quieres seguir utilizando la aplicación. MECUBA no se compromete a actualizar siempre la aplicación para que sea relevante para ti y/o funcione con la versión de Android e iOS que tengas instalada en tu dispositivo. Sin embargo, usted se compromete a aceptar siempre las actualizaciones de la aplicación cuando se le ofrezcan, También es posible que deseemos dejar de proporcionar la aplicación, y podemos terminar el uso de la misma en cualquier momento sin dar aviso de la terminación a usted. Salvo que le indiquemos lo contrario, al producirse cualquier rescisión, (a) los derechos y licencias que se le conceden en estas condiciones finalizarán; (b) deberá dejar de utilizar la aplicación y (si es necesario) borrarla de su dispositivo.
+
+Cambios en estas condiciones
+
+Podemos actualizar nuestros Términos y Condiciones de vez en cuando. Por lo tanto, se le aconseja que revise esta página periódicamente para ver si hay cambios. Le notificaremos cualquier cambio publicando los nuevos Términos y Condiciones en esta página.
+
+Estos términos y condiciones son efectivos a partir del 2021-11-03
+
+Contacto con nosotros
+
+Si tiene alguna pregunta o sugerencia sobre nuestros Términos y Condiciones, no dude en ponerse en contacto con nosotros en almon190699@gmail.com.
+
+Esta página de Términos y Condiciones fue generada por el Generador de Política de Privacidad de la App
