@@ -1,5 +1,5 @@
 Política de privacidad
-MECUBA construyó la aplicación Brazo Escritor Skill como una aplicación gratuita. Este SERVICIO es proporcionado por MECUBA sin costo alguno y está destinado a ser utilizado tal cual.
+MECUBA construyó la aplicación Axel Alpha Skill como una aplicación gratuita. Este SERVICIO es proporcionado por MECUBA sin costo alguno y está destinado a ser utilizado tal cual.
 
 Esta página se utiliza para informar a los visitantes con respecto a nuestras políticas con la recopilación, el uso y la divulgación de la información personal si alguien decidió utilizar nuestro Servicio.
 
