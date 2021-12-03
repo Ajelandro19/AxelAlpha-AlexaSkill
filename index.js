@@ -1,8 +1,13 @@
+/* *
+ * This sample demonstrates handling intents from an Alexa skill using the Alexa Skills Kit SDK (v2).
+ * Please visit https://alexa.design/cookbook for additional examples on implementing slots, dialog management,
+ * session persistence, api calls, and more.
+ * */
 const Alexa = require('ask-sdk-core');
 const AWS = require("aws-sdk");
 const iotdata = new AWS.IotData({ endpoint: "a2uuhh18q27pfh-ats.iot.us-east-1.amazonaws.com"}); //process.env.IOT_ENDPOINT });
 const lambda = new AWS.Lambda();
-
+const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
 
 
