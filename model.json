@@ -1,0 +1,750 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "axel alfa",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hola",
+                        "como estás",
+                        "di hola mundo",
+                        "di hola",
+                        "hola mundo"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WriteIntent",
+                    "slots": [
+                        {
+                            "name": "letra",
+                            "type": "Letras",
+                            "samples": [
+                                "{letra}",
+                                "la {letra}",
+                                "la letra {letra}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "dile al brazo que escriba {letra}",
+                        "escriba {letra}",
+                        "dibuja {letra}",
+                        "escribe {letra}"
+                    ]
+                },
+                {
+                    "name": "MoveBrazoIntent",
+                    "slots": [
+                        {
+                            "name": "numero",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "a {numero} grados",
+                                "a {numero}",
+                                "en {numero} grados",
+                                "En {numero}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "gira base a {numero}",
+                        "pon base a {numero} grados",
+                        "mueve base en {numero} grados",
+                        "Pon base en {numero} grados",
+                        "Pon hombro en {numero} grados",
+                        "Pon hombro a {numero} grados",
+                        "mueve hombro en {numero} grados",
+                        "mueve hombro {numero}",
+                        "mueve hombro a {numero}"
+                    ]
+                },
+                {
+                    "name": "MoveCodoIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "Ponlo a {number} grados",
+                                "Ponlo a {number}",
+                                "en {number} grados",
+                                "EN {number}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "Pon Codo en {number} grados",
+                        "Mueve codo a {number} grados",
+                        "Pon Codo en {number}",
+                        "Mueve Codo a {number}"
+                    ]
+                },
+                {
+                    "name": "OpenHandIntent",
+                    "slots": [
+                        {
+                            "name": "numero",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "a {numero} grados",
+                                "a {numero}",
+                                "EN {numero} grados",
+                                "En {numero}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "pon garra en {numero} grados",
+                        "garra en {numero} grados",
+                        "garra a {numero}",
+                        "pon garra en {numero}"
+                    ]
+                },
+                {
+                    "name": "MoveMunecaIntent",
+                    "slots": [
+                        {
+                            "name": "numero",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "A {numero} grados",
+                                "En {numero} grados",
+                                "En {numero}",
+                                "A {numero}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "Pon Muñeca en {numero} grados",
+                        "Mueve muñeca a {numero} grados",
+                        "Pon muñeca en {numero}",
+                        "Mueve muñeca a {numero}"
+                    ]
+                },
+                {
+                    "name": "TrayectoriasIntent",
+                    "slots": [
+                        {
+                            "name": "movimientos",
+                            "type": "movimientos",
+                            "samples": [
+                                "{movimientos}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "dile a axel alpha que {movimientos}",
+                        "dile al brazo que {movimientos}",
+                        "{movimientos}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Letras",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Z",
+                                "synonyms": [
+                                    "zulu"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Y",
+                                "synonyms": [
+                                    "yankee"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "X",
+                                "synonyms": [
+                                    "x-ray"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "W",
+                                "synonyms": [
+                                    "whiskey"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "V",
+                                "synonyms": [
+                                    "victor"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "U",
+                                "synonyms": [
+                                    "uniforme"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "T",
+                                "synonyms": [
+                                    "tango"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "S",
+                                "synonyms": [
+                                    "sierra"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "R",
+                                "synonyms": [
+                                    "romeo"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Q",
+                                "synonyms": [
+                                    "quebec"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "P",
+                                "synonyms": [
+                                    "papa"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "O",
+                                "synonyms": [
+                                    "oscar"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ñ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "N",
+                                "synonyms": [
+                                    "noviembre"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "M",
+                                "synonyms": [
+                                    "mike"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "L",
+                                "synonyms": [
+                                    "lima"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "K",
+                                "synonyms": [
+                                    "kilo"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "J",
+                                "synonyms": [
+                                    "julieta"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "I",
+                                "synonyms": [
+                                    "india"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "H",
+                                "synonyms": [
+                                    "hotel"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "G",
+                                "synonyms": [
+                                    "golf"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "F",
+                                "synonyms": [
+                                    "foxtrot"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "E",
+                                "synonyms": [
+                                    "echo"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "D",
+                                "synonyms": [
+                                    "delta"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "C",
+                                "synonyms": [
+                                    "charlie"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "B",
+                                "synonyms": [
+                                    "bravo"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "A",
+                                "synonyms": [
+                                    "alfa"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Estado",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Cerrar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Abrir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cierra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Abre"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "movimientos",
+                    "values": [
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "revivir"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "name": {
+                                "value": "morir"
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "name": {
+                                "value": "agarrar"
+                            }
+                        },
+                        {
+                            "id": "4",
+                            "name": {
+                                "value": "saludar"
+                            }
+                        },
+                        {
+                            "id": "5",
+                            "name": {
+                                "value": "dormir"
+                            }
+                        },
+                        {
+                            "id": "6",
+                            "name": {
+                                "value": "atacar"
+                            }
+                        },
+                        {
+                            "id": "7",
+                            "name": {
+                                "value": "ladrar"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "WriteIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "letra",
+                            "type": "Letras",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1191631559096.166824813138"
+                            },
+                            "validations": [
+                                {
+                                    "type": "hasEntityResolutionMatch",
+                                    "prompt": "Slot.Validation.333611282292.1421401239744.1581706678992"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "MoveBrazoIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "numero",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.163762757802.48078495154"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isLessThanOrEqualTo",
+                                    "prompt": "Slot.Validation.218164680681.1160820240085.825600473019",
+                                    "value": "180"
+                                },
+                                {
+                                    "type": "isGreaterThanOrEqualTo",
+                                    "prompt": "Slot.Validation.218164680681.1160820240085.735731183482",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "MoveCodoIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.452965238041.513478664783"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isLessThanOrEqualTo",
+                                    "prompt": "Slot.Validation.452965238041.513478664783.1136734917721",
+                                    "value": "180"
+                                },
+                                {
+                                    "type": "isGreaterThanOrEqualTo",
+                                    "prompt": "Slot.Validation.452965238041.513478664783.207787885804",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "OpenHandIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "numero",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.293636507730.869248278183"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isLessThanOrEqualTo",
+                                    "prompt": "Slot.Validation.293636507730.869248278183.259703014979",
+                                    "value": "180"
+                                },
+                                {
+                                    "type": "isGreaterThanOrEqualTo",
+                                    "prompt": "Slot.Validation.293636507730.869248278183.912304260660",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "MoveMunecaIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "numero",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1264356242011.411371686258"
+                            },
+                            "validations": [
+                                {
+                                    "type": "isLessThanOrEqualTo",
+                                    "prompt": "Slot.Validation.1264356242011.411371686258.1080451940029",
+                                    "value": "180"
+                                },
+                                {
+                                    "type": "isGreaterThanOrEqualTo",
+                                    "prompt": "Slot.Validation.1264356242011.411371686258.1051093007181",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "TrayectoriasIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "movimientos",
+                            "type": "movimientos",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.205054947321.352708391583"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1191631559096.166824813138",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Vale, ¿pero qué quieres que escriba?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Qué letra quieres que escriba?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.333611282292.1421401239744.1581706678992",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Lo siento, el brazo aún no puede escribir eso, dime una letra válida, por favor"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.163762757802.48078495154",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "En qué grado quieres que mueva al brazo?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.452965238041.513478664783",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "¿En qué grado deseas poner el brazo?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.452965238041.513478664783.1136734917721",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "El brazo no puede moverse a más de ciento ochenta grados, inténtelo de nuevo"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.452965238041.513478664783.207787885804",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "El brazo no puede moverse en grados negativos. Por favor inténtelo de nuevo con un número igual o mayor a cero"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.218164680681.1160820240085.825600473019",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "el robot no puede moverse más de ciento ochenta grados. Inténtelo de nuevo"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.218164680681.1160820240085.735731183482",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "el robot no puede moverse a menos de cero grados. Inténtelo de nuevo"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.293636507730.869248278183",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "A qué grado?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.293636507730.869248278183.259703014979",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "La garra solo puede moverse a máximo ciento ochenta grados. Inténtalo de nuevo"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.293636507730.869248278183.912304260660",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "El mínimo de movimiento es cero grados. Inténtalo de nuevo"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1264356242011.411371686258",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "A qué grado?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.1264356242011.411371686258.1080451940029",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "La muñeca solo puede moverse a máximo ciento ochenta grados. Intenta de nuevo"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.1264356242011.411371686258.1051093007181",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "El mínimo de movimiento es cero grados. Intenta de nuevo"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.205054947321.352708391583",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Qué quieres que haga?"
+                    }
+                ]
+            }
+        ]
+    }
+}
