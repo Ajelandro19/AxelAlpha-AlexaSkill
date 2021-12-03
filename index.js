@@ -5,7 +5,7 @@
  * */
 const Alexa = require('ask-sdk-core');
 const AWS = require("aws-sdk");
-const iotdata = new AWS.IotData({ endpoint: "a2uuhh18q27pfh-ats.iot.us-east-1.amazonaws.com"}); //process.env.IOT_ENDPOINT });
+const iotdata = new AWS.IotData({ endpoint: "Escriba aquí el endpoint de aws"}); 
 const lambda = new AWS.Lambda();
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
@@ -17,7 +17,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Hola. Bienvenido a Brazo Escritor, ¿qué desea hacer?';
+        const speakOutput = 'Hola. Bienvenido a Axel Alpha, ¿qué desea hacer?';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -50,7 +50,7 @@ const WriteIntentHandler = {
     payloadObj= payloadObj.replace(/^"(.+(?="$))"$/, '$1');
     return new Promise((resolve, reject) => {
       let params = {
-        topic: "$aws/things/arm/shadow/update/delta",//process.env.IOT_TOPIC_PUB,
+        topic: "Escriba el topic al que quiere enviar este mensaje",//process.env.IOT_TOPIC_PUB,
         payload: payloadObj,
         qos: 1,
       };
@@ -73,7 +73,7 @@ const MoveBrazoIntentHandler = {
     async handle(handlerInput) {
         const word=handlerInput.requestEnvelope.request.intent.slots.numero.value;
         const speakOutput = ('Moviendo a '+ word + " grados" );
-        const Topic="$aws/things/arm/shadow/get";
+        const Topic="Escriba el topic al que quiere enviar este mensaje";
         await Moverfuncion(word, Topic);
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -89,7 +89,7 @@ const MoveCodoIntentHandler = {
     async handle(handlerInput) {
         const word=handlerInput.requestEnvelope.request.intent.slots.number.value;
         const speakOutput = ('Moviendo a '+ word + " grados" );
-        const Topic= "$aws/things/arm/shadow/update";
+        const Topic= "Escriba el topic al que quiere enviar este mensaje";
         await Moverfuncion(word, Topic);
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -106,7 +106,7 @@ const MoveMunecaIntentHandler = {
     async handle(handlerInput) {
         const word=handlerInput.requestEnvelope.request.intent.slots.numero.value;
         const speakOutput = ('Moviendo a '+ word + " grados" );
-        const Topic= "$aws/things/arm/shadow/name/arm_shadow/get";
+        const Topic= "Escriba el topic al que quiere enviar este mensaje";
         await Moverfuncion(word, Topic);
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -124,7 +124,7 @@ const OpenHandIntentHandler = {
     async handle(handlerInput) {
         const word=handlerInput.requestEnvelope.request.intent.slots.numero.value;
         const speakOutput =  ('Moviendo a '+ word + " grados" );
-        const Topic="$aws/things/arm/shadow/update/documents";
+        const Topic="Escriba el topic al que quiere enviar este mensaje";
         await Moverfuncion(word, Topic);
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -141,7 +141,7 @@ const TrayectoriasIntentHandler = {
     async handle(handlerInput) {
         const word=handlerInput.requestEnvelope.request.intent.slots.movimientos.value;
         const speakOutput =  (word + " en progreso" );
-        const Topic="$aws/things/arm/shadow/name/arm_shadow/update";
+        const Topic="Escriba el topic al que quiere enviar este mensaje";
         await Moverfuncion(word, Topic);
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -193,7 +193,7 @@ const CancelAndStopIntentHandler = {
                 || Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.StopIntent');
     },
     handle(handlerInput) {
-        const speakOutput = 'Gracias por usar Brazo escritor. Hasta Luego';
+        const speakOutput = 'Gracias por usar Axel Alpha. Hasta Luego';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
